@@ -1,0 +1,9 @@
+
+version: "2"
+
+services:
+  httpbin:
+    image: stevet/httpbin-alpine
+    ports:
+      - "8000:8000"
+
